@@ -64,3 +64,7 @@ We design our crawler as follows:
 Note that: to ensure the diversity of webpages and banner ads, our seed URL must contain multiple categories of content. We set the seed URL as follows:
       YouTube: https:www.youtube.com/channels
       AOL: http://www.aol.com
+
+## Contact 
+- Chen Xiang: [chxiang@comp.nus.edu.sg](mailto:chxiang@comp.nus.edu.sg)
+- Bowei Chen: [bchen@lincoln.ac.uk](mailto:bchen@lincoln.ac.uk) 
