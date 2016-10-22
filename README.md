@@ -1,6 +1,5 @@
 #Multimedia Dataset (Trade Off in RTB)
 
-## Data Description
 This data description contains two parts:
 * Overview of the dataset
 * Design of data crawler
