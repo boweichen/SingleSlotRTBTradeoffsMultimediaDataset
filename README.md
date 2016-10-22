@@ -44,7 +44,7 @@ We implement the crawler with Python2.7 and chromedriver, and the source code ca
 To help you better understand our code, I will explain three important variables:
 * collecting_webpage_urls: store the webpage URL candidates that is under collecting;
 * to_be_colleccted_webpage_urls: store the new webpage URL candidates;
-* collected_webapge_urls: store all the collect webpage URLs. 
+* collected_webapge_urls: store all the collected webpage URLs. 
 
 We design our crawler as follows: 
 * Step1: initialize some variables, such as starting chromedriver, 
