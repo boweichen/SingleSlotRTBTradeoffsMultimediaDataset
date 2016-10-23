@@ -52,7 +52,7 @@ We design our crawler as follows:
 **      setting to_be_colleccted_webpage_urls as empty, 
 **      setting collected_webapge_urls as empty. 
 
-* Step2:for a webpage URL in colleccting_webpage_urls, in order to remove repetitive webpages , we first check whether it is in collected_webpage_urls. If yes, select the next webpage URL candidate. If not, go to step 3. Once we have traversed colleccting_webpage_urls, we will set it as to_be_colleccted_webpage_urls and set to_be_colleccted_webpage_urls as empty. 
+* Step2: for a webpage URL in colleccting_webpage_urls, in order to remove repetitive webpages , we first check whether it is in collected_webpage_urls. If yes, select the next webpage URL candidate. If not, go to step 3. Once we have traversed colleccting_webpage_urls, we will set it as to_be_colleccted_webpage_urls and set to_be_colleccted_webpage_urls as empty. 
 
 * Step3: for a new webpage URL, we first add it to collected_webapge_urls. And then we select all new URLs that belong to Youtube/AOL within the webpage and add them to  to_be_colleccted_webpage_urls. If there exist an ad in the webpage, go to Step 4. If not, go to step 2.
 
@@ -61,8 +61,8 @@ We design our crawler as follows:
 * Step5: we return to the original webpage, and collect the visual and textual information of the webpage, and save it to ./webpage_image/ and ./webpage.json.   
 
 Note that: to ensure the diversity of webpages and banner ads, our seed URL must contain multiple categories of content. We set the seed URL as follows:
-* YouTube: https:www.youtube.com/channels
-* AOL: http://www.aol.com
+* YouTube: [https:www.youtube.com/channels](https:www.youtube.com/channels)
+* AOL: [http://www.aol.com](http://www.aol.com)
 
 ## Datasets Download
 [https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0)
