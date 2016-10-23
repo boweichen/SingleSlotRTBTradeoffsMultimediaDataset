@@ -1,4 +1,4 @@
-#Multimedia Dataset (Trade Off in RTB)
+#Multimedia Datasets (Trade-Offs Optimisation in RTB)
 
 This data description contains two parts:
 * Overview of the dataset
@@ -61,8 +61,12 @@ We design our crawler as follows:
 * Step5: we return to the original webpage, and collect the visual and textual information of the webpage, and save it to ./webpage_image/ and ./webpage.json.   
 
 Note that: to ensure the diversity of webpages and banner ads, our seed URL must contain multiple categories of content. We set the seed URL as follows:
-      YouTube: https:www.youtube.com/channels
-      AOL: http://www.aol.com
+* YouTube: https:www.youtube.com/channels
+* AOL: http://www.aol.com
+
+## Datasets Download
+[https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0)
+
 
 ## Contact 
 - Chen Xiang: [chxiang@comp.nus.edu.sg](mailto:chxiang@comp.nus.edu.sg)
