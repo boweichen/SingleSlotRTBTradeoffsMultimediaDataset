@@ -33,8 +33,8 @@ For ./ad.json, the textual information of each ad is:
 *     ad_location: the location of this ad
 
 *Note that*: 
-* 1) We set the chromedriver in the privacy model, which disables browsing history, web cache and data storage in the cookies so that the collected ads are not affected by the pervious page views.
-* 2) In ./ad_image/ and ./ad.json , you may notice that some ads with different ad_IDs share the same content, this is because: a) those ads appeared from time to time.  b) ./ad_image/ and ./ad.json store visual and textual information of each displayed ad. In other words, they store the information of original ads for webpages. We did not, and we did not have to distinguish repetitively ads when in our data crawler.
+* We set the chromedriver in the privacy model, which disables browsing history, web cache and data storage in the cookies so that the collected ads are not affected by the pervious page views.
+* In ./ad_image/ and ./ad.json , you may notice that some ads with different ad_IDs share the same content, this is because: a) those ads appeared from time to time.  b) ./ad_image/ and ./ad.json store visual and textual information of each displayed ad. In other words, they store the information of original ads for webpages. We did not, and we did not have to distinguish repetitively ads when in our data crawler.
  
 ## Data Crawler
 We implement the crawler with Python2.7 and chromedriver, and the source code can be found in: 
