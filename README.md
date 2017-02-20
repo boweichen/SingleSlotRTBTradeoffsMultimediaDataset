@@ -64,8 +64,8 @@ Note that: to ensure the diversity of webpages and banner ads, our seed URL must
 * YouTube: [https:www.youtube.com/channels](https:www.youtube.com/channels)
 * AOL: [http://www.aol.com](http://www.aol.com)
 
-## Datasets Download
-[https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0)
+## Data Download
+[Link](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0)
 
 
 ## Contact 
