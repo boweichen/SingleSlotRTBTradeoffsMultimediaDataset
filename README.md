@@ -65,7 +65,7 @@ Note that: to ensure the diversity of webpages and banner ads, our seed URL must
 * AOL: [http://www.aol.com](http://www.aol.com)
 
 ## Data Download
-[Link](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0)
+[Link](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0) (1.59GB)
 
 
 ## Contact 
