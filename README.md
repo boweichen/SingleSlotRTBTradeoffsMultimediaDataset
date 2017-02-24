@@ -4,7 +4,8 @@ This data description contains two parts:
 * Overview of the dataset
 * Design of data crawler
 
-## Overview
+** Overview **
+
 This dataset aims to investigate the trade-off among stakeholders in Real-Time bidding. It contains 7,273 unique webpages from YouTube and 5, 307 unique webpages from AOL, which we collected  over the period from Sep 6th, 2016 to Sep 9th, 2016 in Singapore. As we focus on single slot ad displaying, each webpage in our dataset contains only one ad slot. Since YouTube and AOL adopt different ad-networks, we store the collected data separately. 
 
 Both Youtube dataset and AOL dataset have two folders and two .json files:
@@ -36,7 +37,8 @@ For ./ad.json, the textual information of each ad is:
 * We set the chromedriver in the privacy model, which disables browsing history, web cache and data storage in the cookies so that the collected ads are not affected by the pervious page views.
 * In ./ad_image/ and ./ad.json , you may notice that some ads with different ad_IDs share the same content, this is because: a) those ads appeared from time to time.  b) ./ad_image/ and ./ad.json store visual and textual information of each displayed ad. In other words, they store the information of original ads for webpages. We did not, and we did not have to distinguish repetitively ads when in our data crawler.
  
-## Data Crawler
+** Data Crawler **
+
 We implement the crawler with Python2.7 and chromedriver, and the source code can be found in: 
 * ./youtube/collect_ad_youtube.py
 * ./aol/collected_ad_aol.py
