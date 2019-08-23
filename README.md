@@ -67,9 +67,9 @@ Note that: to ensure the diversity of webpages and banner ads, our seed URL must
 * AOL: [http://www.aol.com](http://www.aol.com)
 
 ## Data Download
-[Link](https://www.dropbox.com/s/hbbinjgbpe8of5g/RTBTradeoffsMultimediaDataset.7z?dl=0) (1.59GB)
+[Link](https://www.dropbox.com/s/3lk9lfymjfsnb1y/RTBTradeoffsMultimediaDataset.7z?dl=0) (1.59GB)
 
 
 ## Contact 
 - Xiang Chen: [chxiang@comp.nus.edu.sg](mailto:chxiang@comp.nus.edu.sg)
-- Bowei Chen: [bchen@lincoln.ac.uk](mailto:bchen@lincoln.ac.uk) 
+- Bowei Chen: [Bowei.Chen@glasgow.ac.uk](mailto:Bowei.Chen@glasgow.ac.uk) 
